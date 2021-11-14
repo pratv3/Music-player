@@ -18,5 +18,5 @@ def df ():
     e=Entry(r,textvariable=dd).pack()
     c=Button(r,text="Download",bg="green",fg="white",command=do).pack()
     r.mainloop()
-if __name__=='__main__':
+if __name__!='__main__':
     df()
