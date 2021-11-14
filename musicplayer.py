@@ -1,3 +1,6 @@
+import os
+os.system("pip install pygame")
+os.system("pip install YouTube")
 from tkinter import *
 from tkinter import filedialog as fd
 from tkinter import messagebox as ms
