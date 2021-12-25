@@ -5,6 +5,9 @@ from pygame import mixer
 import pygame
 import datetime
 from pytube import YouTube
+import os
+os.system("pip install pytube")
+os.system("pip install pygame")
 date=int(datetime.datetime.now().hour)
 if date>=0 and date<19:
     bac="white"
