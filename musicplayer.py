@@ -9,7 +9,7 @@ import os
 os.system("pip install pytube")
 os.system("pip install pygame")
 date=int(datetime.datetime.now().hour)
-if date>=0 and date<19:
+if date>=7 and date<19:
     bac="white"
     fot="black"
     print("font light")
